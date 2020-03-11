@@ -4,7 +4,7 @@ expose:
     helm.sh/hook: post-install,post-upgrade
     helm.sh/hook-delete-policy: hook-succeeded
   config:
-    exposer: Router
+    exposer: Route
     http: true
     tlsacme: false
     domain: apps.serv.run
