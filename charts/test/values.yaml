@@ -80,7 +80,7 @@ ingress:
 # values we use from the `jx-requirements.yml` file if we are using helmfile and helm 3
 jxRequirements:
   ingress:
-    domain: ""
+    domain: apps.serv.run
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
